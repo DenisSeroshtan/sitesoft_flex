@@ -1,0 +1,26 @@
+//color
+$accent: #ffeb3b;
+$pink: #f50057;
+$white:  #cfd8dc;
+$blue:  #84a1ad;
+
+
+$fontawesome_path: '../fonts/fontawesome';
+
+
+//common style
+@import "_misc/mixins";
+@import "_misc/fonts";
+@import "_misc/smartgrid";
+@import "_misc/adjustment";
+@import "_misc/font-awesome";
+
+// animation
+//@import "_misc/preloader";
+//@import "common/hamburger";
+//@import "common/popup";
+
+
+//section
+@import "common/header";
+
