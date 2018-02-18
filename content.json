@@ -1,5 +1,68 @@
 
 {
-  
+  "header" : {
+    "nav" : [
+      "About",
+      "Services",
+      {
+        "Blog" : ["Popular", "Latest", "Relevance", "Archive"]
+      },
+      "News",
+      "Portfolio",
+      "Contact us"
+
+    ],
+    "title" : "Creating Remarkable Poster Prints Through 4 Color Poster Printing",
+    "btn" : "Buy / 14.99 usd *",
+    "pathImg" : "assets/img/header_bg.jpg",
+    "bottomText" : "The 3 Golden Rules Professional Graphic Designers Don T Want You To Know About"
+
+  },
+  "content" : {
+    "news" : [
+      {
+
+        "data" : "18 Jan 2016",
+        "iconHeart" : "1K",
+        "iconLike" : "45",
+        "title" : "Welcome To Desiclassifieds Free Classifieds Free Ads Free",
+        "text" : "There are numerous success stories you will hear about businesses making it good on the internet .The troubling thing is, there are maybe a tenfold or even a hundredfold of stories inconsistent totheirs. Many have..."
+      },
+      {
+
+        "data" : " 10 Sep 2016",
+        "iconHeart" : "14",
+        "iconLike" : "8",
+        "title" : "Advertising Relationships Vs Business Decisions",
+        "text" : "Everybody that has ever been to a meeting, can recall the all familiar “passing” of the businesscards. This powerfull marketing tool is often used matter of factly, and we have to wonder how oftendoes the recipient of..."
+      },
+      {
+
+        "data" : " 26 Jun 2016",
+        "iconHeart" : "81",
+        "iconLike" : "78",
+        "title" : "Influencing The Influencer",
+        "text" : "From ads that dance or sing to MTV-like commercials, online advertisers are now using a new type oftechnology called “rich media” to attract consumers..."
+      },
+      {
+
+        "data" : " 12 Apr 2016",
+        "iconHeart" : "9",
+        "iconLike" : "0",
+        "title" : "Nailing It On The Head With Free Internet Advertising",
+        "text" : "Affiliate marketing is the latest trend online. With so many products to sell and services tooffer, sometimes displaying it on one site isn’t enough. Thus, advertisers or merchants needaffiliates, some sites which are willing..."
+      }
+    ],
+    "features" : {
+      "text" : [
+        "With the Internet spreading like wildfire andreaching every part of our daily life, more andmore traffic is directed to websites in search forinformation. Imagine <a href='#' class='features__acco-link'>a website without any textand completely overloaded with pictures.</a>",
+        "Well Blogs serve as an unstoppable entityin today’s scenario for online promotion andbranding. They are the latest selling mantrafor websites."
+      ]
+    }
+
+
+  }
+
+
 
 }

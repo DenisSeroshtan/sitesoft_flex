@@ -1,10 +1,10 @@
 @mixin default-font {
-	@include font-family($regular);
+	@include font-family(regular);
 	@include font;
 }
 //style
 html{
-	@include reset; //reset style of smartgrid
+	//@include reset; //reset style of smartgrid
 	box-sizing: border-box;
 	font-size: 16px;
 	@include md-block {
@@ -36,7 +36,7 @@ html {
 body {
 	min-height: 100%;
 	@include default-font;
-	line-height: 1.4;
+	line-height: 1.42;
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 }
@@ -48,6 +48,37 @@ body {
 }
 .container{
 	@include wrapper;
+}
+//-_-_-_-_-_-_-_-_-_-_-_-_-/style title/_-_-_-_-_-_-_-_-_-_-_-_-//
+.title-one {
+	@include font-family(bold);
+	@include font(40px, #fff);
+
+}
+.title-one_black {
+	@extend .title-one;
+	color: #000;
+}
+.title-two {
+	@include font-family(bold);
+	@include font(30px, #000);
+}
+.title-three {
+	@include font-family(bold);
+	@include font(18px, #000);
+}
+.title-three_white {
+	@extend .title-three;
+	color: #fff;
+}
+.content__text {
+	margin-top: rem(15px);
+}
+.section {
+	padding: 4% 0;
+	@include sm-block {
+		padding: 4% 0;
+	}
 }
 
 li {

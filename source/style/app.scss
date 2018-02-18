@@ -4,6 +4,8 @@ $pink: #f50057;
 $white:  #cfd8dc;
 $blue:  #84a1ad;
 
+$color-link: #fff;
+
 
 $fontawesome_path: '../fonts/fontawesome';
 
@@ -17,10 +19,12 @@ $fontawesome_path: '../fonts/fontawesome';
 
 // animation
 //@import "_misc/preloader";
-//@import "common/hamburger";
+@import "common/hamburger";
 //@import "common/popup";
+@import "common/mySlider";
 
 
 //section
 @import "common/header";
+@import "common/content";
 

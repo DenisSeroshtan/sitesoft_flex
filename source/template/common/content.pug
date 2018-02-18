@@ -1,0 +1,46 @@
+section.section.content
+	.container
+		.content__row
+
+			.news
+				.news__title.title-two News
+				ul.news__list
+					each obj, num in content.news
+						li.news__item
+							a(href="#" class="news__item-link")
+								div(style=`background-image:url("assets/img/news/${num+1}.png")`).news__pic
+								.data__wrap
+									.news__data= obj.data
+									.news__icon
+										span.icon__heart= obj.iconHeart
+										span.icon__like= obj.iconLike
+								.news__item-title.title-three= obj.title
+								.news__item-text
+									p= obj.text
+			.features
+				.features__title.title-two Features
+				.features__slider.mySlider
+					-for(let i = 0; i<3; i++)
+						div(style='background-image:url("assets/img/slides.png")').slider__item.s-overlay.mySlider__item
+							.slider__wrap-icon
+								span.icon__heart 9
+								span.icon__like 0
+							.slider__bottom
+								.slider__data.news__data 02 Feb 2016
+								.slider__title.title-three_white.
+									15 Tips To Increase Your Adwords Profits
+
+				ul.features__acco
+					-for(let i = 0; i<3; i++)
+						li.acco__item
+							.acco__item-title.icon-up.title-three
+								a(href="#").acco__title-link Truck Side Advertising IsnT It Time
+							.acco__item-content
+								each text in content.features.text
+									p !{text}
+
+
+
+
+
+
