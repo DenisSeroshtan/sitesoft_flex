@@ -1,0 +1,36 @@
+section.section.section__form
+	.container
+		.section__form-title.title-two
+			| 15 Tips To Increase Your Adwords Profits?
+
+		.section__form-row
+			form.form
+				.form__group
+					each text in form.placehold
+						input(name="name"
+							type="text"
+							placeholder= text).input__text
+				.form__title How To Write Better Advertising Copy? *
+				.form__group
+					each text, num in form.radio
+						.form__group-radio
+							input(class="input__radio" type="radio" name="radio" id=`check${1+num}`).input__radio
+							label(for=`check${1+num}`).radio__label= text
+
+				textarea(name="message"
+					class="textarea"
+					id="textarea"
+					placeholder="Your message")
+
+				.form__group
+					.form__group-check
+						input(type="checkbox"
+							name="checkbox"
+							class="form__check"
+							id="check" checked)
+						label(for='check').check__text= form.textCheck
+					.form__btn-wrap
+						+Btn("Join Us", "form__btn")
+
+
+

@@ -154,10 +154,23 @@
 .acco__item-title {
 	background: $accent;
 
+	padding: 10px 100px 10px 10px;
+
 	margin-top: 5px;
 	position: relative;
 	cursor: pointer;
 	color: black;
+	span {
+
+		text-decoration: underline;
+
+	}
+	&:hover {
+		span {
+
+			text-decoration: none;
+		}
+	}
 
 	&.icon-up {
 		@include icon-pseudo($icon-chevron-down, after) {
@@ -181,10 +194,7 @@
 	display: block;
 	color: black;
 	padding: 10px 100px 10px 10px;
-	text-decoration: underline;
-	&:hover {
-		text-decoration: none;
-	}
+
 
 
 }
@@ -197,4 +207,7 @@
 	display: inline;
 	color: #f50057;
 	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
 }

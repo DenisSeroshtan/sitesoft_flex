@@ -80,6 +80,10 @@ body {
 		padding: 4% 0;
 	}
 }
+.small-text {
+	@include font-family(regular);
+	@include font(13px);
+}
 
 li {
 	list-style: none;
@@ -123,7 +127,13 @@ textarea
 	line-height:1;
 	font-size:13px;
 	@include default-font;
-
+}
+label {
+	cursor: pointer;
+}
+textarea {
+	outline: none;
+	resize: none;
 }
 button {
 	cursor: pointer;

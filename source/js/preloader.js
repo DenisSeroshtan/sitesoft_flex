@@ -5,6 +5,7 @@ window.onload = function() {
 
 
 $(function() {
+
   $('.features__slider').mySlider({
     buttons: false,
     autoSlide: true,
@@ -15,15 +16,14 @@ $(function() {
   /*=================
    accordeon features
    =================*/
-  $(".acco__title-link").on('click', function (e) {
+  $(".acco__item-title").on('click', function (e) {
     e.preventDefault();
 
     var
         $this = $(this),
-        item = $this.closest('.acco__item-title'),
-        currentText = item.next();
+        currentText = $this.next();
 
-    item.toggleClass('icon-up icon-down');
+    $this.toggleClass('icon-up icon-down');
     currentText.stop(true, true).slideToggle();
   });
 

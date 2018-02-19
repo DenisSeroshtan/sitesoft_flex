@@ -71,8 +71,8 @@ mixin nav(className, activeItem, id,  mod= "")
 
 
 mixin Btn (titleText, mod = "")
-	if (titleText == "Отправить")
-		button(class= "btn" type="button") #{titleText}
+	if (titleText == "Join Us")
+		button(class= "btn "+ mod type="button") #{titleText}
 	else
 		a(href="#" class="btn " + mod) #{titleText}
 

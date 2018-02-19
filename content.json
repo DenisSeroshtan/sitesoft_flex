@@ -60,7 +60,35 @@
       ]
     }
 
+  },
+  "article" : {
+    "top" : [
+      "There are many ways to market a product or a service and providing the potential clients and customerswith testimonials is one of the best ways to market. ",
+      "The power of testimonials can never be underestimated. People, especially nowadays, will only purchaseproducts or avail services which have been referred to them by people whom they know. But most of thetimes, this is not an option that is in the hands of the business owner, he has to do the next best thing,which is to get testimonials from his past clients. Testimonials are living statements from past customersor clients which states that they were satisfied by the product/ service. Every business must havetestimonials to be able to stand out in the ever crowded markets.",
+      "Aside from confirming the existence of a business and lessening doubts, testimonials provide assurance topotential customers and clients of the quality of the product or service. The fact that they took time outto be able to write testimonials about the product reflect their levels of satisfaction towards theprod"
+    ],
+    "mid" : [
+      "Credible testimonials provide a competitive advantage for the product/service. There are many productsand services out there and one of the ways to stand out from the rest is the use of credibletestimonials",
+      "There are many types of testimonials. Testimonials are usually categorized according to the source. Hereare a few examples:"
+    ],
+    "bottom": [
+      "There is much more to making a testimonial an effective tool for marketing than gethering them. <span class='yellow-text'>Good testimonials are the one which can be compressed into a few catchy words.</span>Thereis much more to making a testimonial an effective tool for marketing than gathering them. Goodtestimonials are the ones which can be compressed into a few catchy words. “I lost 20 pounds in two weekstime!” is an example of an eye-catching testimonial. However, one must never rephrase or edit what theclient had said."
+    ],
+    "innerContent": {
+      "Testimonials from satisfied customers" : " This is probably the most effective type of testimonial. Nothing beats a testimonial from a satisfiedcustomer because it is a picture of whatthe product/service is all about.",
+      "Testimonials from experts" : "Experts can be credible sources of testimonials. If a renowned dermatologist writes a testimonial for abeauty soap, it will surely help in boosting its sales,wouldn’t it?",
+      "Testimonials from celebrities" : " In a world that is run by mass media, celebrities have become powerful sources of testimonials. Today,even infomercials are infested by testimonials from celebrities. People may think that gettingtestimonials from celebrities will cost a lot, but if it’s a real testimonial, celebrities may evenwaive their talent fees."
+    },
+    "info" : "Credible testimonials should also contain the complete attributes of the people who gave them. Theirtitles, location and age should be included whenever possible."
 
+  },
+  "form" : {
+    "placehold" : ["First Name*", "Last Name"],
+    "radio" : [
+      "Tips For Designing An Effective Business Card",
+      "Internet Advertising Trends You Won T Be Disappointed"
+    ],
+    "textCheck" : "The modern world is in a continuous movement and people everywhere are looking for quick, safe means of accessing"
   }
 
 

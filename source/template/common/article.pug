@@ -1,0 +1,36 @@
+section.section.article
+	.container
+		.divider
+		article.article
+			.article__pic
+				.pic__wrap
+					img(src="assets/img/article.png"
+						alt="article pic"
+						class="article__img")
+			.article__content
+				.article__content-title.title-one_black
+					| Study 800 Numbers Still Popular With Advertisers
+				.article__content-text
+					each text in article.top
+						p !{text}
+
+					.title-three Testimonials give advantage
+					each text in article.mid
+						p !{text}
+
+					.article__content-inner
+						each cont, title in article.innerContent
+							.content__inner-title= title
+							p
+								i= cont
+					each text in article.bottom
+						p !{text}
+
+					.article__info.small-text= article.info
+
+
+
+
+
+
+

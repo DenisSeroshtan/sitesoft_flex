@@ -1,0 +1,165 @@
+.section__form {
+	background: #fafafa;
+	padding-bottom: 100px;
+}
+
+.section__form-title {
+	text-align: center;
+	margin-bottom: rem(72px);
+
+}
+.section__form-row {
+	@include row-flex;
+	justify-content: center;
+}
+
+.form {
+	@include col;
+	@include size(8);
+	@include size-md(10);
+	@include size-sm(12);
+
+	font-size: 1rem;
+}
+.form__group {
+	@include row-flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 22px;
+}
+.form__title {
+	font-size: 18px;
+	@include font-family(bold);
+	margin-bottom: 22px;
+	text-align: center;
+}
+.input__text {
+	@include col;
+	@include size(6);
+	@include size-md(12);
+
+	font-size: 22px;
+	padding: rem(15px);
+	border: 1px solid $white;
+
+	@include md-block {
+		margin-bottom: 10px;
+	}
+
+	@include placeholder {
+		font-size: 22px;
+		@include font-family(light);
+		color:  $white;
+	}
+}
+.textarea {
+	width: 100%;
+	border: 1px solid $white;
+	padding: rem(15px);
+	font-size: 22px;
+	min-height: rem(180px);
+
+	margin-bottom: 22px;
+
+	@include placeholder {
+		font-size: 22px;
+		line-height: 1;
+		@include font-family(light);
+		color:  $white;
+	}
+}
+
+.form__group-radio {
+	@include col;
+	@include size(6);
+	@include size-md(10);
+	@include size-sm(12);
+	margin-bottom: 10px;
+}
+.form__group-check {
+	@include col;
+	@include size(7);
+	@include size-sm(12);
+	@include sm-block {
+		margin-bottom: 15px;
+	}
+}
+.form__btn-wrap {
+	@include col;
+	@include size(5);
+	@include size-sm(12);
+	text-align: right;
+
+	@include sm-block {
+		text-align: center;
+	}
+
+}
+.form__btn {
+	padding-left: 60px;
+	padding-right: 60px;
+	box-shadow: none;
+	@include font-family(bold);
+}
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-/style checkbox/_-_-_-_-_-_-_-_-_-_-_-_-//
+
+.form__check:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+
+.form__check:not(checked) + .check__text{
+	position: relative;
+	padding-left: 28px;
+}
+
+.form__check:not(checked) + .check__text:before{
+	content: "";
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	border: 3px solid $pink;
+	background: #fff;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	margin-top: -2px;
+}
+
+.form__check:checked + .check__text:before{
+	content: "\f00c";
+	line-height: 10px;
+	font-size: 14px;
+	font-family: fontAwesome;
+	color: $pink;
+}
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-/radio/_-_-_-_-_-_-_-_-_-_-_-_-//
+.input__radio:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.input__radio:not(checked) + .radio__label{
+	position: relative;
+	padding-left: 28px;
+}
+.input__radio:not(checked) + .radio__label:before{
+	content: "";
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+
+	border: 3px solid $pink;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	margin-top: -2px;
+
+}
+.input__radio:checked + .radio__label:before{
+	background: $pink;
+}
+
+
