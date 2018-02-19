@@ -4,7 +4,7 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background-color: #151515;
+	background-color: #00070a;
 	z-index: 100;
 }
 @mixin opacity($opacity){
@@ -22,7 +22,7 @@
 			border: 5px;
 			width: 80px;
 			height: 80px;
-			border: 5px solid #323232;
+			border: 5px solid #0f1a1f;
 			border-radius: 500px;
 			position: absolute;
 		}

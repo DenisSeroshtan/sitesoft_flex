@@ -18,9 +18,8 @@ $fontawesome_path: '../fonts/fontawesome';
 @import "_misc/font-awesome";
 
 // animation
-//@import "_misc/preloader";
+@import "_misc/preloader";
 @import "common/hamburger";
-//@import "common/popup";
 @import "common/mySlider";
 
 
@@ -29,4 +28,5 @@ $fontawesome_path: '../fonts/fontawesome';
 @import "common/content";
 @import "common/article";
 @import "common/form";
+@import "common/footer";
 

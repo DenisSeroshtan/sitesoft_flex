@@ -1,0 +1,43 @@
+footer.footer
+	.footer-top
+		.container
+			.footer__row
+				.address
+					.address__wrap
+						.address-top Like Isidroberg
+						.address-bottom 30 Runte Station Art. 934
+				.phone +7 (123) 456 78 90
+				ul.social__list
+					each soc in footer.footerTop
+						li.social__item
+							a(href="#" class=`social__item-link ${soc}`)
+				.top
+					a(href="#js-header" class="top__link")
+
+	.footer-mid
+		.container
+			.footer__mid-row
+				each obj, title in footer.menu
+					.footer__col
+						if(title)
+							.footer__menu-title= title
+						else
+						ul.footer__menu-list
+							each text in obj
+								li.footer__menu-item
+									a(href="#"
+									class="footer__menu-link " + ((text == "Support") ? "active" : ""))= text
+
+				.footer__col.footer__slider-wrap
+					.footer__slider.mySlider
+						-for(let i = 0; i<2; i++)
+							.footer__slider-item.mySlider__item
+								div(style="background-image: url('assets/img/maunt.png')").slider__img
+
+			.footer-bottom.small-text
+				.footer-bottom__left
+					a(href="#" class="bottom__text-link")
+						| Nailing It On The Head With Free Internet Advertising
+				.footer-bottom__right
+					| 2016 &copy Writing A Good Headline For Your Advertisement
+

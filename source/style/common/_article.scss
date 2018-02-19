@@ -1,5 +1,7 @@
-.section.content {
-	padding-top: 0;
+.section {
+	&.article {
+		padding-top: 0;
+	}
 	position: relative;
 }
 

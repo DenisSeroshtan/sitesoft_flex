@@ -89,6 +89,16 @@
       "Internet Advertising Trends You Won T Be Disappointed"
     ],
     "textCheck" : "The modern world is in a continuous movement and people everywhere are looking for quick, safe means of accessing"
+  },
+
+  "footer" : {
+    "footerTop" : ["twitter", "youtube", "behance"],
+    "menu" : {
+      "Footer menu" : ["Home", "Blog", "News", "Contact us"],
+      "Additional" : ["Press", "Download", "Languages", "For visually impaired"],
+      "" : ["Sitemap", "Search", "RSS", "Support"]
+    }
+
   }
 
 

@@ -2,6 +2,5 @@
 
 module.exports = [
    "./source/js/mySlider.jquery.min.js",
-   "./source/js/preloader.js"
-
+   "./source/js/main.js"
 ];
